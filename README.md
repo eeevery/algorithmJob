@@ -1,42 +1,37 @@
-## 选课系统1.0
+## 算法课大作业
 
-### 环境：
-本地调试版
+1、已知![img](file:///C:/Users/XJTU/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png)，(1<=i<=n-1) 其中*c*1和*c*2为正常数，请证明![img](file:///C:/Users/XJTU/AppData/Local/Temp/msohtmlclip1/01/clip_image004.png)。
 
-方面|细节
----|---
-* 开发工具|Intellij IDEA 2017.1.3
-* springboot|**2.0.1.RELEASE**
-* jdk| 1.8.0_40
-* maven| 3.3.9
-* alibaba Druid 数据库连接池|1.1.0
-* 数据库| mysql
+ 
 
-### 日志
-+ 日志使用的是Logpack
+2、【凸包问题】给定平面上n个点，从中找出一个最小点集，使该点集所组成的凸多边形包围所有的n个点。用分治法编写一个求解凸包问题的算法。
 
-### CAS
-+ CAS 使用的是Spring Security
+ 
 
-### 后端
-+ Mybatis
+3、设计一个动态规划算法，找到字符串T[1..n]中前向和后项相同的最长连续子串。前向子串和后项子串不能重叠。例如：
+
+1）输入“ALGORITHM”，算法返回空串；
+
+2）输入“RCURSION”，算法返回“R”；
+
+3）输入“REDIVIDE”，算法返回“EDI”。
 
 
-### 功能实现：
 
-### Git操作
 
-1. 本地commit（IDEA工具，项目上右键）
-2. 获取master最新代码
-    git fetch origin master
-3. 合并master代码
-    git merge origin/master
-4. 如果有冲突，解决（查看version control，红色的文件）
-    解决冲突后，把红色的文件，右键 - git - add 
-    再次commit
-5. push
-    git push
-    （如果提示，按照提示操作，如git push --set-upstream origin zhao）
-6. 发送merge请求（在浏览器上提交）
 
-### [DateBase](DB.md)
+ 
+
+4、假定J={1,2,3,…,n}是n个等待在同一台机器上加工的作业集合，每个作业所需要的加工时间都为1个时间单位，且每个作业i都有一个最迟完成时间di。如果一个作业i能够在di之前完成，就可获得收益pi>0；反之，则不获得收益。请设计一个贪心的算法求该问题的一个最佳安排方案使得收益最大，并证明你所设计的贪心策略的最优性。
+
+
+
+
+
+ 
+
+5、【集合覆盖问题】给定一个集合X={*x*1,*x*2,…*xn*}以及X的一个子集簇F={*f*1,*f*2,…*fn*}，其中，*fi* ÍX。求F的一个最小子集CÍF，使得C中的集合能够覆盖集合X，即![img](file:///C:/Users/XJTU/AppData/Local/Temp/msohtmlclip1/01/clip_image006.png)。
+
+1）已知图的顶点覆盖问题是NPC，证明集合覆盖问题是NP难的；
+
+2）利用回溯法或分支界限法设计求解集合覆盖问题的算法。
